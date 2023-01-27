@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-weight: 600;
+}
+body{
+    background-color: #feecf8;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    color:  #05003a;
+    font-size: 30px;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+nav .logo{
+    margin-left: 50px;
+}
+nav button{
+    font-size: 30px;
+    color:  #05003a;
+    margin-right: 40px;
+    background-color: white;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+.addItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: azure;
+}
+input{
+    font-size: 20px;
+    height: 40px;
+    width: 80%;
+    border-radius: 10px 0 0 10px;
+    padding-left: 10px;
+}
+.addBtn{
+    font-size: 20px;
+    height: 40px;
+    background-color: white;
+    width: 20%;
+    border-radius: 0 10px 10px 0;
+}
+
+.showItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+.showItems .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #05003a;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.item p{
+    padding-left: 10px;
+    width: 80%;
+}
+.item button{
+    width: 10%;
+    border-radius: 0 10px 10px 0;
+    font-size: 20px;
+    background-color: #05003a;
+    color: white;
+    border: none;
+}
